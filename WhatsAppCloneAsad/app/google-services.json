@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848814319227",
+    "project_id": "messenger-clone-93a4d",
+    "storage_bucket": "messenger-clone-93a4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848814319227:android:b51c2f5d5855aceee524de",
+        "android_client_info": {
+          "package_name": "com.example.whatsappcloneasad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT8mztY0jgbi-QVDDasgwWag8Jz8myLGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

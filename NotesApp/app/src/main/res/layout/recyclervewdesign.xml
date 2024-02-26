@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="7dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/green_circle"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:id="@+id/displayPriority"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Title"
+    android:padding="6dp"
+    android:fontFamily="@font/productsansregular"
+    android:id="@+id/displayTitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:padding="6dp"
+            android:fontFamily="@font/productsansregular"
+            android:id="@+id/displaySubTitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="May 08, 2023"
+            android:padding="6dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/productsansregular"
+            android:id="@+id/displayNotesDate"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

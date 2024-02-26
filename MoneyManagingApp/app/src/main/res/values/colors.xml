@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orangeDark">#C02519</color>
+    <color name="orange">#F44336</color>
+    <color name="textColor">#353535</color>
+    <color name="expenseColor">#F44336</color>
+    <color name="incomeColor">#4CAF50</color>
+    <color name="Category1">#4CAF50</color>
+    <color name="Category2">#2196F3</color>
+    <color name="Category3">#8BC34A</color>
+    <color name="Category4">#CDDC39</color>
+    <color name="Category5">#FF9800</color>
+    <color name="Category6">#FF5722</color>
+
+
+    <color name="bank_color">#3F51B5</color>
+    <color name="jazzcash_color">#8E0D04</color>
+    <color name="easypaisa_color">#4CAF50</color>
+    <color name="nayapay_color">#03A9F4</color>
+    <color name="default_color">#673AB7</color>
+    <color name="cash_color">#009688</color>
+
+
+</resources>

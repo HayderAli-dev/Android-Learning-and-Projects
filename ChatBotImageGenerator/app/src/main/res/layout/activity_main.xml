@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:fontFamily="@font/ibm_plex_mono_regular"
+        android:textSize="20sp"
+        android:textColor="#8B848C"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:textColorHint="@color/black"
+        android:hint="Enter Your Prompt"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/edittext"
+        android:padding="12dp"
+        android:textSize="17sp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Generate Image"
+        android:id="@+id/btn"
+        android:textSize="30sp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/progress_circular"
+        android:layout_margin="20dp"
+        android:indeterminateTint="@color/design_default_color_primary"/>
+    <ImageView
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="#787272"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/img"/>
+
+
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
